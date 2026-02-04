@@ -1,13 +1,8 @@
-# Python
-__pycache__/
-venv/
 
-# PyCharm
+
+PyCharm
 .idea/
 
-# Node
+Node
 node_modules/
 dist/
-
-# Environment
-.env
