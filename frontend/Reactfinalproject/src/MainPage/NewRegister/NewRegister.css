@@ -1,0 +1,112 @@
+.register-page {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../assets/newregisback.png");
+  background-color: gray;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  color: white;
+  margin: 0px;
+  flex-direction: column;
+  overflow-y: visible;
+}
+
+/* .btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 800px;
+} */
+ .btnssss{
+  width: 100px;
+  background:none;
+  margin-left: 900px;
+ }
+
+.title {
+  text-align: center;
+  margin-top: 0px;
+  /* margin-bottom: 80px; */
+  color: white;
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+
+.form-box {
+  width: 350px;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-right: 150px;
+ position: relative;
+ margin-bottom: 50px;
+}
+
+.form-box input,
+.form-box select {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.submit-btn {
+  background: #e11d48;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.photo-box {
+  margin-bottom: 280px;
+  width: 150px;
+  height: 150px;
+  background: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.camera-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.photo-btn {
+  padding: 8px 15px;
+  border: none;
+  background: #a2aaba;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+
+ 
+}
+.optio{
+  color: black;
+}
+.age{
+  color: black;
+}

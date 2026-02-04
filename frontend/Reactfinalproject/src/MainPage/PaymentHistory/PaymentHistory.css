@@ -1,0 +1,157 @@
+.registered-container {
+  background-color: #cbc9c9;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.registered-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+  margin-right: 200px;
+}
+
+/* .registered-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  gap: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+} */
+
+.icon {
+  color: #555;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.icon:hover {
+  color: #e91e63;
+}
+
+.delete {
+  color: red;
+}
+
+.download {
+  color: #1976d2;
+}
+
+.small-box {
+  color: #444;
+}
+/* .firstline{
+  display: flex;
+  justify-content: space-between;
+} */
+
+.firstline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filter{
+  background-color: white;
+  height: 25px;
+  margin-left: 500px;
+  border-radius: 5px;
+}
+.search{
+  background-color: white;
+   height: 25px;
+   width: 170px;
+   display: flex;
+   justify-content: start;
+   margin-left: 10px;
+   color: black;
+   font-size: xx-large;
+   border-radius: 5px;
+}
+.secondline{
+  display: flex;
+  gap: 10px;
+ justify-content: end;
+}
+.delete{
+  background-color: white;
+   border-radius: 5px;
+    height: 25px;
+}
+.download{
+   background-color: white;
+   border-radius: 5px;
+    height: 25px;
+}
+.table-container {
+  max-height: 350px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-box {
+  background: white;
+  padding: 22px 28px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.confirm-btn {
+  background: #1f2937;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background: white;
+  border: 1px solid #d1d5db;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: black;
+}
+
+.payment-container {
+  padding: 20px;
+}
+
+.payment-title {
+  margin-bottom: 15px;
+}
+
+.table-container {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+
+  max-height: 320px;
+  overflow-y: auto;
+}

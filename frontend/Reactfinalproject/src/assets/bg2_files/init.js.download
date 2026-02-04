@@ -1,0 +1,35 @@
+(function () {
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y595JN8LZH');
+  window.gtag=gtag;
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.querySelector("#fixLocalClient");
+    if (btn) {
+      btn.addEventListener("click", function () {
+        localStorage.removeItem("_installedVersion");
+        caches.keys()
+          .then(function (keys) {
+            Promise.all(keys.map(function (key) {
+              return caches.delete(key);
+            }))
+              .then(function () {
+                window.location.reload();
+              })
+          });
+      });
+    }
+  });
+  try {
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register("/sw.js")
+        .then((reg) => {
+          reg.update();
+        })
+    }
+  } catch (e) {
+
+  }
+})();
